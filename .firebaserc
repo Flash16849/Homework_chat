@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "chat-61a9c": {
+      "hosting": {
+        "chatify": [
+          "chat-61a9c"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "chat-61a9c"
+  }
+}

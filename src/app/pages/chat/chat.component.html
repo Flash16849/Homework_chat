@@ -1,0 +1,40 @@
+<div class='container'>
+    <div class='chatbox' ng-controller="MessageCtrl as chatMessage">
+      <div class='chatbox__user-list'>
+        
+        <div id="userListHeader" style="display: inline-flex; justify-content: center;">
+          <span>
+            <h3>Friend list</h3>
+          </span>
+          <div>
+            <button >Login</button>
+            <!-- <button >Logout</button> -->
+          </div>
+        </div>
+        <div class='chatbox__user--active'>
+          <p>Flash</p>
+        </div>
+        <div class='chatbox__user--busy'>
+          <p>Finnick</p>
+        </div>
+        <div class='chatbox__user--away'>
+          <p>Weaselton</p>
+        </div>
+       
+      </div>
+      <div class="chatbox__messages" ng-repeat="message in messages">
+        <div id="userInChat">
+          <p>Flash</p>
+        </div>
+        <div class="chatbox__messages__user-message">
+          <div class="chatbox__messages__user-message--ind-message">
+            <p class="message">blablablakmndsbfkjsdnfmnsdkjfnkmsdnfkjnsdfkjdsfmnkdjsfkjdsnfkmasdfkjksdjfmsdnfkandsfkjndkjsfnkjsdnf</p>
+          </div>
+        </div>
+      </div>
+      <form >
+        <input type="text" placeholder="Enter your message" >
+      </form>
+    </div>
+  </div>
+
